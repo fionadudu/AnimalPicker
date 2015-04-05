@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2D3206F1AD0DF43002E2529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3206E1AD0DF43002E2529 /* AppDelegate.swift */; };
+		F2D320711AD0DF43002E2529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D320701AD0DF43002E2529 /* ViewController.swift */; };
+		F2D320741AD0DF43002E2529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D320721AD0DF43002E2529 /* Main.storyboard */; };
+		F2D320761AD0DF43002E2529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D320751AD0DF43002E2529 /* Images.xcassets */; };
+		F2D320791AD0DF43002E2529 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D320771AD0DF43002E2529 /* LaunchScreen.xib */; };
+		F2D320851AD0DF43002E2529 /* AnimalPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D320841AD0DF43002E2529 /* AnimalPickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2D3207F1AD0DF43002E2529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D320611AD0DF43002E2529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D320681AD0DF43002E2529;
+			remoteInfo = AnimalPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2D320691AD0DF43002E2529 /* AnimalPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D3206D1AD0DF43002E2529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D3206E1AD0DF43002E2529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2D320701AD0DF43002E2529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2D320731AD0DF43002E2529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D320751AD0DF43002E2529 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2D320781AD0DF43002E2529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2D3207E1AD0DF43002E2529 /* AnimalPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D320831AD0DF43002E2529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D320841AD0DF43002E2529 /* AnimalPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPickerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D320661AD0DF43002E2529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D3207B1AD0DF43002E2529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D320601AD0DF43002E2529 = {
+			isa = PBXGroup;
+			children = (
+				F2D3206B1AD0DF43002E2529 /* AnimalPicker */,
+				F2D320811AD0DF43002E2529 /* AnimalPickerTests */,
+				F2D3206A1AD0DF43002E2529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D3206A1AD0DF43002E2529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D320691AD0DF43002E2529 /* AnimalPicker.app */,
+				F2D3207E1AD0DF43002E2529 /* AnimalPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D3206B1AD0DF43002E2529 /* AnimalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3206E1AD0DF43002E2529 /* AppDelegate.swift */,
+				F2D320701AD0DF43002E2529 /* ViewController.swift */,
+				F2D320721AD0DF43002E2529 /* Main.storyboard */,
+				F2D320751AD0DF43002E2529 /* Images.xcassets */,
+				F2D320771AD0DF43002E2529 /* LaunchScreen.xib */,
+				F2D3206C1AD0DF43002E2529 /* Supporting Files */,
+			);
+			path = AnimalPicker;
+			sourceTree = "<group>";
+		};
+		F2D3206C1AD0DF43002E2529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3206D1AD0DF43002E2529 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D320811AD0DF43002E2529 /* AnimalPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D320841AD0DF43002E2529 /* AnimalPickerTests.swift */,
+				F2D320821AD0DF43002E2529 /* Supporting Files */,
+			);
+			path = AnimalPickerTests;
+			sourceTree = "<group>";
+		};
+		F2D320821AD0DF43002E2529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D320831AD0DF43002E2529 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D320681AD0DF43002E2529 /* AnimalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D320881AD0DF43002E2529 /* Build configuration list for PBXNativeTarget "AnimalPicker" */;
+			buildPhases = (
+				F2D320651AD0DF43002E2529 /* Sources */,
+				F2D320661AD0DF43002E2529 /* Frameworks */,
+				F2D320671AD0DF43002E2529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalPicker;
+			productName = AnimalPicker;
+			productReference = F2D320691AD0DF43002E2529 /* AnimalPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2D3207D1AD0DF43002E2529 /* AnimalPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D3208B1AD0DF43002E2529 /* Build configuration list for PBXNativeTarget "AnimalPickerTests" */;
+			buildPhases = (
+				F2D3207A1AD0DF43002E2529 /* Sources */,
+				F2D3207B1AD0DF43002E2529 /* Frameworks */,
+				F2D3207C1AD0DF43002E2529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D320801AD0DF43002E2529 /* PBXTargetDependency */,
+			);
+			name = AnimalPickerTests;
+			productName = AnimalPickerTests;
+			productReference = F2D3207E1AD0DF43002E2529 /* AnimalPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D320611AD0DF43002E2529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Fiona;
+				TargetAttributes = {
+					F2D320681AD0DF43002E2529 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F2D3207D1AD0DF43002E2529 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F2D320681AD0DF43002E2529;
+					};
+				};
+			};
+			buildConfigurationList = F2D320641AD0DF43002E2529 /* Build configuration list for PBXProject "AnimalPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D320601AD0DF43002E2529;
+			productRefGroup = F2D3206A1AD0DF43002E2529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D320681AD0DF43002E2529 /* AnimalPicker */,
+				F2D3207D1AD0DF43002E2529 /* AnimalPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D320671AD0DF43002E2529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D320741AD0DF43002E2529 /* Main.storyboard in Resources */,
+				F2D320791AD0DF43002E2529 /* LaunchScreen.xib in Resources */,
+				F2D320761AD0DF43002E2529 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D3207C1AD0DF43002E2529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D320651AD0DF43002E2529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D320711AD0DF43002E2529 /* ViewController.swift in Sources */,
+				F2D3206F1AD0DF43002E2529 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D3207A1AD0DF43002E2529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D320851AD0DF43002E2529 /* AnimalPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2D320801AD0DF43002E2529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D320681AD0DF43002E2529 /* AnimalPicker */;
+			targetProxy = F2D3207F1AD0DF43002E2529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2D320721AD0DF43002E2529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D320731AD0DF43002E2529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D320771AD0DF43002E2529 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D320781AD0DF43002E2529 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D320861AD0DF43002E2529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2D320871AD0DF43002E2529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D320891AD0DF43002E2529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2D3208A1AD0DF43002E2529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2D3208C1AD0DF43002E2529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimalPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPicker.app/AnimalPicker";
+			};
+			name = Debug;
+		};
+		F2D3208D1AD0DF43002E2529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimalPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalPicker.app/AnimalPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D320641AD0DF43002E2529 /* Build configuration list for PBXProject "AnimalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D320861AD0DF43002E2529 /* Debug */,
+				F2D320871AD0DF43002E2529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D320881AD0DF43002E2529 /* Build configuration list for PBXNativeTarget "AnimalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D320891AD0DF43002E2529 /* Debug */,
+				F2D3208A1AD0DF43002E2529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2D3208B1AD0DF43002E2529 /* Build configuration list for PBXNativeTarget "AnimalPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D3208C1AD0DF43002E2529 /* Debug */,
+				F2D3208D1AD0DF43002E2529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D320611AD0DF43002E2529 /* Project object */;
+}
