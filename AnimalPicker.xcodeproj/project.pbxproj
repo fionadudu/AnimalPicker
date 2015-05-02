@@ -13,6 +13,8 @@
 		F2D320761AD0DF43002E2529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D320751AD0DF43002E2529 /* Images.xcassets */; };
 		F2D320791AD0DF43002E2529 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D320771AD0DF43002E2529 /* LaunchScreen.xib */; };
 		F2D320851AD0DF43002E2529 /* AnimalPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D320841AD0DF43002E2529 /* AnimalPickerTests.swift */; };
+		F2D3208F1AD0E536002E2529 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3208E1AD0E536002E2529 /* ViewControllerExtension.swift */; };
+		F2D320931AD0F0CD002E2529 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D320921AD0F0CD002E2529 /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F2D3207E1AD0DF43002E2529 /* AnimalPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D320831AD0DF43002E2529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D320841AD0DF43002E2529 /* AnimalPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPickerTests.swift; sourceTree = "<group>"; };
+		F2D3208E1AD0E536002E2529 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		F2D320921AD0F0CD002E2529 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureViewController.swift; path = ../PictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				F2D3206E1AD0DF43002E2529 /* AppDelegate.swift */,
 				F2D320701AD0DF43002E2529 /* ViewController.swift */,
 				F2D320721AD0DF43002E2529 /* Main.storyboard */,
+				F2D3208E1AD0E536002E2529 /* ViewControllerExtension.swift */,
+				F2D320921AD0F0CD002E2529 /* PictureViewController.swift */,
 				F2D320751AD0DF43002E2529 /* Images.xcassets */,
 				F2D320771AD0DF43002E2529 /* LaunchScreen.xib */,
 				F2D3206C1AD0DF43002E2529 /* Supporting Files */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2D320711AD0DF43002E2529 /* ViewController.swift in Sources */,
+				F2D320931AD0F0CD002E2529 /* PictureViewController.swift in Sources */,
 				F2D3206F1AD0DF43002E2529 /* AppDelegate.swift in Sources */,
+				F2D3208F1AD0E536002E2529 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
